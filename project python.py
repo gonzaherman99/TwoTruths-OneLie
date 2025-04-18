@@ -168,6 +168,7 @@ def run_game():
             print(f"\n🎓 You scored {score}/{total}!\n")
         elif choice == '2':
             print("Goodbye!")
+            break
         else:
             print("Invalid menu choice.")
 
