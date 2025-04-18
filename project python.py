@@ -11,8 +11,7 @@ MAIN_MENU = r"""
 │   Two Truths and a Lie                 │
 ├─────────────────────────────────────────┤
 │ 1) Play Game                           │
-│ 2) View Progress                       │
-│ 3) Exit                                │
+│ 2) Exit                                │
 └─────────────────────────────────────────┘
 """
 
@@ -168,10 +167,7 @@ def run_game():
                 show_result(correct, outcome, score, total)
             print(f"\n🎓 You scored {score}/{total}!\n")
         elif choice == '2':
-            print("Progress feature coming soon.")
-        elif choice == '3':
             print("Goodbye!")
-            break
         else:
             print("Invalid menu choice.")
 
