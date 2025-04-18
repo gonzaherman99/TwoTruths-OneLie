@@ -1,0 +1,12 @@
+{
+  "original_file": "lies.csv",
+  "processed_entries": 900,
+  "duplicates_removed": 99100,
+  "invalid_entries": 0,
+  "output_files": [
+    "optimized_data.jsonl",
+    "data.zip",
+    "data_index.json",
+    "validation_report.json"
+  ]
+}
